@@ -52,6 +52,3 @@ class Graph:
 
     def __iter__(self):
         return iter(self.vert_list.values())
-
-    def __del__(self):
-    	pass
