@@ -54,4 +54,5 @@ class Graph:
         return iter(self.vert_list.values())
 
     def __del__(self):
+        print("Object deleted")
     	pass
